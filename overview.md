@@ -56,7 +56,8 @@ và giá trị (value)
 
 ## Control Flow ## 
 ### Câu lệnh điều kiện: if, elif và else ###
-- Câu lệnh điều kiện, thường được gọi là câu lệnh if-then, cho phép thực thi các đoạn mã nhất định phụ thuộc vào một số điều kiện. Ví dụ: 
+- Câu lệnh điều kiện, thường được gọi là câu lệnh if-then, cho phép thực thi các đoạn mã nhất định phụ thuộc vào một số điều kiện.  
+- Ví dụ:  
 a = 200  
 b = 33  
 if b > a:  
@@ -69,27 +70,30 @@ else:
 Sử dụng dấu hai chấm (:) và khoảng trắng để biểu thị các 
 khối mã riêng biệt.
 
-- Vòng lặp for: Vòng lặp trong Python là cách để lặp lại việc thực thi một số câu lệnh. Ví dụ, nếu muốn in ra từng mục trong một danh sách, ta có thể sử dụng vòng lặp for:
+- Vòng lặp for:  
+ Vòng lặp trong Python là cách để lặp lại việc thực thi một số câu lệnh.  
+ Ví dụ, nếu muốn in ra từng mục trong một danh sách, ta có thể sử dụng vòng lặp for:  
 for N in [2, 3, 5, 7]:  
-  print(N, end=' ') 
+  print(N, end=' ')  
   #in ra trên cùng 1 dòng
 for N in [2, 3, 5, 7]:  
-   print(N) #in ra trên mỗi dòng
-for i in range(10):
-   print(i, end=' ')
+   print(N) #in ra trên mỗi dòng  
+for i in range(10):  
+   print(i, end=' ')  
 
-- Vòng lặp while: Một kiểu vòng lặp khác trong Python là vòng lặp while, nó sẽ tiến hành lặp cho đến khi thỏa mãn một số điều kiện:
-i = 0  
-   while i < 10:
-     print(i, end=' ')
-          i += 1
+- Vòng lặp while:  
+Một kiểu vòng lặp khác trong Python là vòng lặp while, nó sẽ tiến hành lặp cho đến khi thỏa mãn một số điều kiện:  
+i = 0   
+   while i < 10:  
+     print(i, end=' ')  
+          i += 1  
 
-Tinh chỉnh vòng lặp với break và continue  
+Tinh chỉnh vòng lặp với break và continue   
 Có hai câu lệnh hữu ích được sử dụng trong vòng lặp để tinh chỉnh cách mà chúng 
 thực thi:  
-  - Câu lệnh break để thoát hoàn toàn khỏi vòng lặp
-  - Câu lệnh continue để bỏ qua phần còn lại của lần lặp hiện tại và tiến đến lần lặp tiếp theo.
-Chúng có thể sử dụng trong cả vòng lặp for và while.  
+  - Câu lệnh break để thoát hoàn toàn khỏi vòng lặp  
+  - Câu lệnh continue để bỏ qua phần còn lại của lần lặp hiện tại và tiến đến lần lặp tiếp theo.  
+Chúng có thể sử dụng trong cả vòng lặp for và while.    
 **Ví dụ** 
  - Break:  
   a, b = 0, 1  
